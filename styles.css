@@ -59,6 +59,10 @@ input[type="text"] {
 	margin: 20px 0;
     margin-left: 20% ;
 } 
+.qrcode img{
+    background-color: white;
+    padding: 10 px;
+}
 
 button { 
 	background-color: #007bff; 
