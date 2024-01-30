@@ -16,8 +16,7 @@ function generateQr() {
 function downloadQr() {
     let canvas = document.querySelector(".qrcode canvas");
     let borderSize = 15;
-
-    
+  
     let borderedCanvas = document.createElement("canvas");
     borderedCanvas.width = canvas.width + 2 * borderSize;
     borderedCanvas.height = canvas.height + 2 * borderSize;
