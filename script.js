@@ -2,7 +2,7 @@ let qrcode = new QRCode(document.querySelector(".qrcode"));
 
 function updateQrCode(text) {
     if (text.trim() === "") {
-        qrcode.makeCode("Input de BSDK!!");
+        qrcode.makeCode("Input required");
     } else {
         qrcode.makeCode(text);
     }
