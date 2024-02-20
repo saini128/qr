@@ -44,7 +44,7 @@ function downloadQr() {
     document.body.removeChild(link);
 }
 
-updateQrCode("Input de BSDK!!");
+updateQrCode("Input Required");
 
 document.querySelector("input").addEventListener("input", function() {
     generateQr();
